@@ -1,0 +1,257 @@
+/*Simple buttons from redycs*/
+
+.btn-blue{
+    background-color: rgb(96, 145, 250);
+    border-style: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+}
+.btn-blue:hover{
+    background-color: rgb(76, 128, 241);
+    cursor: pointer;
+}
+
+
+.btn-yellow{
+    background-color: rgba(238, 225, 39, 0.678);
+    border-style: none;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.616);
+    border-radius: 5px;
+}
+.btn-yellow:hover{
+    background-color: rgba(223, 212, 61, 0.664);
+    cursor: pointer;
+}
+
+
+.btn-green{
+    background-color: rgba(81, 187, 60, 0.678);
+    border-style: none;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.993);
+    border-radius: 5px;
+}
+.btn-green:hover{
+    background-color: rgba(56, 179, 32, 0.678);
+    cursor: pointer;
+}
+
+
+.btn-red{
+    background-color: rgba(243, 46, 46, 0.747);
+    border-style: none;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.993);
+    border-radius: 5px;
+}
+.btn-red:hover{
+    background-color: rgba(240, 24, 24, 0.781);
+    cursor: pointer;
+}
+
+
+.btn-dark{
+    background-color: rgba(32, 32, 32, 0.747);
+    border-style: none;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.993);
+    border-radius: 5px;
+}
+.btn-dark:hover{
+    background-color: rgba(20, 20, 20, 0.774);
+    cursor: pointer;
+}  
+
+
+
+/*Transperent buttons from redycs*/
+
+.par-blue{
+    font-size: 17px;
+    color: rgb(96, 145, 250);
+    border-color: rgb(96, 145, 250);
+    border-radius: 5px;
+}
+.par-blue:hover{
+    background-color:rgb(96, 145, 250) ;
+    color: white;
+    cursor: pointer;
+}
+
+.par-yellow{
+    font-size: 17px;
+    color: rgba(238, 225, 39, 0.678);
+    border-color: rgba(238, 225, 39, 0.678);
+    border-radius: 5px;
+}
+.par-yellow:hover{
+    background-color:rgba(238, 225, 39, 0.678); ;
+    color: black;
+    cursor: pointer;
+}
+
+
+.par-green{
+    font-size: 17px;
+    color: rgba(56, 179, 32, 0.678);
+    border-color: rgba(56, 179, 32, 0.678);
+    border-radius: 5px;
+}
+.par-green:hover{
+    background-color:rgba(56, 179, 32, 0.678); 
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.par-red{
+    font-size: 17px;
+    color: rgba(243, 46, 46, 0.747);
+    border-color: rgba(243, 46, 46, 0.747);
+    border-radius: 5px;
+}
+.par-red:hover{
+    background-color:rgba(243, 46, 46, 0.747) ;
+    color: white;
+    cursor: pointer;
+}
+
+
+.par-dark{
+    font-size: 17px;
+    color: rgba(32, 32, 32, 0.747);
+    border-color: rgba(32, 32, 32, 0.747);
+    border-radius: 5px;
+}
+.par-dark:hover{
+    background-color:rgba(32, 32, 32, 0.747) ;
+    color: white;
+    cursor: pointer;
+}
+
+/* redycs forms*/
+/*name email password form*/
+form{
+    font-size: 13px;
+    font-family: 'Comic Neue', cursive;
+    
+}
+.nep-n{
+    font-size: 20px;
+    border-radius: 3px;
+    border-style: groove;
+}
+.nep-e{
+    font-size: 20px;
+    border-radius: 3px;
+    border-style: groove;
+}
+.nep-p{
+    font-size: 20px;
+    border-radius: 3px;
+    border-style: groove;
+}
+
+/*Redycs alerts*/
+
+/*Normal alerts*/
+.al-green{
+    background-color: #d4edda;
+    color: #155724;
+    padding: .75rem 1.25rem;
+    border-radius: .30rem;
+    font-family:'Comic Neue', cursive ;
+}
+
+.al-yellow{
+    background-color: #edecd4;
+    color: #856404;
+    padding: .75rem 1.25rem;
+    border-radius: .30rem;
+    font-family:'Comic Neue', cursive ;
+}
+
+.al-red{
+    background-color: #edd4d4;
+    color: #850404;
+    padding: .75rem 1.25rem;
+    border-radius: .30rem;
+    font-family:'Comic Neue', cursive ;
+}
+
+.al-blue{
+    background-color: #d4e7ed;
+    color: #048585;
+    padding: .75rem 1.25rem;
+    border-radius: .30rem;
+    font-family:'Comic Neue', cursive ;
+}
+
+.info-card{
+    padding: 3rem 5rem;
+    background-color: #e9eaef;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 7px;
+}
+.bt-card{
+    padding: 3rem 5rem;
+    background-color: #e9eaef;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 7px;
+}
+.bt-line{
+    margin-top: 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+
+
+/*Redycs Navigation bars*/
+.nav-dark{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(37, 36, 36);
+    border-style: solid;
+    border-radius: 5px;
+    color: rgb(37, 36, 36);
+    border-style: hidden;
+    border-radius: 5px;
+}
+.nav-li{
+    
+    display: inline-block;
+    margin: 25px;
+    font-size: 25px;
+}
+
+.nav-a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+   
+}
+
+.nav-light{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border-style: hidden;
+    border-radius: 5px;
+}
+.nav-a-light{
+    text-decoration: none;
+    color: rgb(22, 21, 21);
+    font-family: 'Russo One', sans-serif;
+   
+}
+
+
+
